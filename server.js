@@ -5,58 +5,131 @@ const app = express();
 app.use(bodyParser.json())
 app.use(cors())
 
+
 const database = {
-    users: [
+    applications: [
+        // {
+        //     applicationDetail: {
+        //         applicationID: 0,   
+        //         companyName: "Facebook",
+        //         positionName: "Facebook Intern - Summer 2020",
+        //         pinned: false,
+        //     },
+
+        //     selectedCategories : [
+        //         {
+        //         index: 0,
+        //         name: 'Role',
+        //         selectedCategory : [],
+        //         },
+        //         {
+        //         index: 1,
+        //         name: 'Location',
+        //         selectedCategory : [],
+        //         }
+        //     ],
+        //     archived: false,
+        //     dates :[
+        //         {key : 0, date: new Date('2020-01-10'), showDate: true, completed: false},
+        //         {key : 1, date: new Date('2020-01-16'), showDate: true, completed: true},
+        //         {key : 2, date: new Date('2020-01-23'), showDate: true, completed: true},        
+        //     ]
+        // },
         {
-            id : '123',
-            name: 'John',
-            email: 'john@gmail.com',
-            password: 'cookies',
-            companyName: '',
-            positionName: '',
-            entries: 0,
-            joined: new Date()
-        },
-        {
-            id : '124',
-            name: 'Sally',
-            email: 'sally@gmail.com',
-            password: 'bananas',
-            entries: 0,
-            joined: new Date()
+            _id: null,
+            applicationID: "10883d1d-38e1-45ee-986f-8df91b9184a1",
+            uID: "39d52fc6-c8e8-4a62-8bbf-b6f26a1cb02d",
+            authID: null,
+            Tasks: [
+                {
+                    midTaskID: "4d97ebd7-7dcb-4012-b4dd-07fda3d93d5a",
+                    Time: new Date('2020-01-05'),
+                    Title: "Applied",
+                    Status: true,
+                    showDate: true,
+                },
+                {
+                    midTaskID: "4d97ebd7-7dcb-4012-b4dd-07fda3d93d5a",
+                    Time: new Date('2020-01-10'),
+                    Title: "Interview",
+                    Status: false,
+                    showDate: true,
+
+                },
+                
+            ],
+            Detail: {
+                applicationID: "10883d1d-38e1-45ee-986f-8df91b9184a1",
+                uID: "39d52fc6-c8e8-4a62-8bbf-b6f26a1cb02d",
+                PositionName: "Position 24",
+                CompanyName: "Company 24",
+                companyID: null,
+                positionID: null,
+                IsFavorite: false,
+                Status: null,
+                Categories: [
+                    {
+                        Type: "Type 0",
+                        SuggestionsOrSeleceted: [
+                            "Type 0 - Item 0"
+                        ]
+                    },
+                    {
+                        Type: "Type 1",
+                        SuggestionsOrSeleceted: [
+                            "Type 1 - Item 0"
+                        ]
+                    },
+                    {
+                        Type: "Type 2",
+                        SuggestionsOrSeleceted: [
+                            "Type 2 - Item 0"
+                        ]
+                    }
+                ]
+            },
         }
     ]
 }
 
 
 app.get('/', (req, res) =>{
-    res.json(database.users)
-
+    res.json(database.applications)
 })
 
 
-app.post('/signin', (req, res)=> {
-    if(req.body.email === database.users[0].email && req.body.password === database.users[0].password) {
-        res.json('success')
-    } else{
-    res.status(400).json("error logging in")
-    }
+app.post('/abc', (req, res)=> {
+    const body = req.body
+    // database.applications[0].dates.push({
+    //     applicationID: body.applicationID
+    // })
+    res.json(body)
 })
 
 app.post('/newapp', (req, res) =>{
-    const {companyName, positionName}  = req.body;
+    const {Tasks, Detail} = req.body
 
-    database.users.push({
-        id : '125',
-        name: 'jay',
-        email: 'email@email.com',
-        password: 'passwordittis',
-        companyName: companyName,
-        positionName: positionName,
-        entries: 0,
-        joined: new Date()
-    })
-    res.json(database.users[database.users.length-1])
+    const applications  = database.applications
+    database.applications = applications.concat({
+            applicationID: applications.length,
+            _id: null,
+            uID: null,
+            authID: null,
+            Detail: {
+                applicationID: applications.length,
+                uID: null,
+                CompanyName: Detail.CompanyName,
+                PositionName: Detail.PositionName,
+                IsFavorite: Detail.IsFavorite,
+                companyID: null,
+                positionID: null,
+                Status: null,
+                Categories: Detail.Categories
+            },
+            Tasks: Tasks,
+        }
+    )
+    res.json(database.applications)
 })
 
 app.get('/profile/:id', (req, res) =>{
