@@ -49,7 +49,7 @@ const database = {
                     showDate: true,
                 },
                 {
-                    midTaskID: "4d97ebd7-7dcb-4012-b4dd-07fda3d93d5a",
+                    midTaskID: "4d97ebd7-7dcb-1234-b4dd-07fda3d93d5a",
                     Time: new Date('2020-01-10'),
                     Title: "Interview",
                     Status: false,
@@ -61,31 +61,26 @@ const database = {
             Detail: {
                 applicationID: "10883d1d-38e1-45ee-986f-8df91b9184a1",
                 uID: "39d52fc6-c8e8-4a62-8bbf-b6f26a1cb02d",
-                PositionName: "Position 24",
-                CompanyName: "Company 24",
+                PositionName: "Facebook",
+                CompanyName: "Summer Internship 2020",
                 companyID: null,
                 positionID: null,
                 IsFavorite: false,
                 Status: null,
                 Categories: [
                     {
-                        Type: "Type 0",
+                        Type: "Role",
                         SuggestionsOrSeleceted: [
-                            "Type 0 - Item 0"
+                            "Product Design", "Software Engineer"
                         ]
                     },
                     {
-                        Type: "Type 1",
+                        Type: "Location",
                         SuggestionsOrSeleceted: [
-                            "Type 1 - Item 0"
+                            "New York"
                         ]
                     },
-                    {
-                        Type: "Type 2",
-                        SuggestionsOrSeleceted: [
-                            "Type 2 - Item 0"
-                        ]
-                    }
+                    
                 ]
             },
         }
@@ -100,9 +95,7 @@ app.get('/', (req, res) =>{
 
 app.post('/abc', (req, res)=> {
     const body = req.body
-    // database.applications[0].dates.push({
-    //     applicationID: body.applicationID
-    // })
+
     res.json(body)
 })
 
