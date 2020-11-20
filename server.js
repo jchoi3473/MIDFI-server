@@ -202,285 +202,90 @@ const database = {
         ],
         Contacts: [
           {
-            contactID: '4b20aec1-e53c-40b4-9a02-328d43c3fcd6',
+            contactID: 'a5de0306-1877-4d6e-9853-b8ce3cec718b',
             PersonalDetail: {
-              contactID: '4b20aec1-e53c-40b4-9a02-328d43c3fcd6',
+              contactID: 'a5de0306-1877-4d6e-9853-b8ce3cec718b',
               Firstname: 'Firstname 0',
               Lastname: 'Lastname 0',
               Title: 'Title 0',
-              Company: 'Company 0'
+              Company: 'Company 0',
+              IsReadOnly: 'True',
+              Width_Per_Cell: 86
             },
-            Contents: [
-              {
-                contactID: '4b20aec1-e53c-40b4-9a02-328d43c3fcd6',
-                Type: 'Email',
-                Contents: [
-                  {
-                    noteContentsID: '4b20aec1-e53c-40b4-9a02-328d43c3fcd6',
-                    Header: 'Phone',
-                    Contents_Text: [
-                      '0'
-                    ]
-                  }
-                ]
-              },
-              {
-                contactID: '4b20aec1-e53c-40b4-9a02-328d43c3fcd6',
-                Type: 'Email',
-                Contents: [
-                  {
-                    noteContentsID: '4b20aec1-e53c-40b4-9a02-328d43c3fcd6',
-                    Header: 'Email',
-                    Contents_Text: [
-                      'Email00@gmail.com'
-                    ]
-                  }
-                ]
-              },
-              {
-                contactID: '4b20aec1-e53c-40b4-9a02-328d43c3fcd6',
-                Type: 'ConvoNotes',
-                Contents: [
-                  {
-                    noteContentsID: '64efdb50-b337-40ed-8fd0-41cadc0d7e1c',
-                    Header: 'Header 0',
-                    Contents_Text: [
-                      'Header 0 - Contentx_Text0'
-                    ]
-                  },
-                  {
-                    noteContentsID: '44aacc77-9ed4-4663-b457-ba8510e0209a',
-                    Header: 'Header 1',
-                    Contents_Text: [
-                      'Header 1 - Contentx_Text0'
-                    ]
-                  },
-                  {
-                    noteContentsID: '1d070bd6-ca2e-4da3-918d-e5e3f5d50383',
-                    Header: 'Header 2',
-                    Contents_Text: [
-                      'Header 2 - Contentx_Text0',
-                      'Header 2 - Contentx_Text1'
-                    ]
-                  }
-                ]
-              }
-            ],
             Email: {
-              emailID: 'e5550f77-c3d1-47ac-9985-1f18e511d176',
+              emailID: 'e7055cab-b8b2-4a1d-ba90-478b0e33bc39',
               Email: 'Email00@gmail.com'
             },
             Phone: {
-              phoneID: '39161d95-f1b5-4029-b6d4-5b3fa0528820',
+              phoneID: '2c7bd395-48f5-4c9a-ac1b-dd48af5ce8fc',
               PhoneNumber: '0'
             },
             Convo: [
               {
-                noteContentsID: '64efdb50-b337-40ed-8fd0-41cadc0d7e1c',
+                noteContentsID: 'a0ad0d90-2dd5-4b77-bb74-6df9d0382f01',
                 Header: 'Header 0',
                 Contents_Text: [
-                  'Header 0 - Contentx_Text0'
-                ]
-              },
-              {
-                noteContentsID: '44aacc77-9ed4-4663-b457-ba8510e0209a',
-                Header: 'Header 1',
-                Contents_Text: [
-                  'Header 1 - Contentx_Text0'
-                ]
-              },
-              {
-                noteContentsID: '1d070bd6-ca2e-4da3-918d-e5e3f5d50383',
-                Header: 'Header 2',
-                Contents_Text: [
-                  'Header 2 - Contentx_Text0',
-                  'Header 2 - Contentx_Text1'
+                  'Header 0 - Contentx_Text0',
+                  'Header 0 - Contentx_Text1',
+                  'Header 0 - Contentx_Text2',
+                  'Header 0 - Contentx_Text3',
+                  'Header 0 - Contentx_Text4'
                 ]
               }
             ]
           },
           {
-            contactID: 'f7977cf3-6d75-42af-be65-e92854b77533',
+            contactID: 'd86598b3-1723-4fcc-9c21-8dc3ecd4d8b7',
             PersonalDetail: {
-              contactID: 'f7977cf3-6d75-42af-be65-e92854b77533',
+              contactID: 'd86598b3-1723-4fcc-9c21-8dc3ecd4d8b7',
               Firstname: 'Firstname 1',
               Lastname: 'Lastname 1',
               Title: 'Title 1',
-              Company: 'Company 1'
+              Company: 'Company 1',
+              IsReadOnly: 'True',
+              Width_Per_Cell: 86
             },
-            Contents: [
-              {
-                contactID: 'f7977cf3-6d75-42af-be65-e92854b77533',
-                Type: 'Email',
-                Contents: [
-                  {
-                    noteContentsID: 'f7977cf3-6d75-42af-be65-e92854b77533',
-                    Header: 'Phone',
-                    Contents_Text: [
-                      '1000000'
-                    ]
-                  }
-                ]
-              },
-              {
-                contactID: 'f7977cf3-6d75-42af-be65-e92854b77533',
-                Type: 'Email',
-                Contents: [
-                  {
-                    noteContentsID: 'f7977cf3-6d75-42af-be65-e92854b77533',
-                    Header: 'Email',
-                    Contents_Text: [
-                      'Email11@gmail.com'
-                    ]
-                  }
-                ]
-              },
-              {
-                contactID: 'f7977cf3-6d75-42af-be65-e92854b77533',
-                Type: 'ConvoNotes',
-                Contents: [
-                  {
-                    noteContentsID: '8a51ca6b-319e-47e1-86f9-f0fb7a534c8e',
-                    Header: 'Header 0',
-                    Contents_Text: [
-                      'Header 0 - Contentx_Text0',
-                      'Header 0 - Contentx_Text1'
-                    ]
-                  },
-                  {
-                    noteContentsID: 'ad2011a0-4e19-4d0e-ad49-0f907dd35403',
-                    Header: 'Header 1',
-                    Contents_Text: [
-                      'Header 1 - Contentx_Text0'
-                    ]
-                  },
-                  {
-                    noteContentsID: '9741e34e-e119-48ec-87f4-9566b206af32',
-                    Header: 'Header 2',
-                    Contents_Text: [
-                      'Header 2 - Contentx_Text0'
-                    ]
-                  }
-                ]
-              }
-            ],
             Email: {
-              emailID: '5c446b93-e602-4b85-9a00-9a6bcfd1aa1e',
+              emailID: '65a38437-d8ab-426d-92d0-3fb72add8bd7',
               Email: 'Email11@gmail.com'
             },
             Phone: {
-              phoneID: 'b9bbff58-353c-49df-b441-75200dd32d64',
+              phoneID: '1ada0518-e7a8-4076-9df7-85838e3e7ec6',
               PhoneNumber: '1000000'
             },
             Convo: [
               {
-                noteContentsID: '8a51ca6b-319e-47e1-86f9-f0fb7a534c8e',
+                noteContentsID: 'eefed138-88ff-475f-9cbc-91988119e233',
                 Header: 'Header 0',
                 Contents_Text: [
                   'Header 0 - Contentx_Text0',
                   'Header 0 - Contentx_Text1'
                 ]
-              },
-              {
-                noteContentsID: 'ad2011a0-4e19-4d0e-ad49-0f907dd35403',
-                Header: 'Header 1',
-                Contents_Text: [
-                  'Header 1 - Contentx_Text0'
-                ]
-              },
-              {
-                noteContentsID: '9741e34e-e119-48ec-87f4-9566b206af32',
-                Header: 'Header 2',
-                Contents_Text: [
-                  'Header 2 - Contentx_Text0'
-                ]
               }
             ]
           },
           {
-            contactID: '566a6dc3-c72f-4205-bc26-cdb4b16203fd',
+            contactID: '78abcc22-9877-43cf-88e7-5a0bce0e131d',
             PersonalDetail: {
-              contactID: '566a6dc3-c72f-4205-bc26-cdb4b16203fd',
+              contactID: '78abcc22-9877-43cf-88e7-5a0bce0e131d',
               Firstname: 'Firstname 2',
               Lastname: 'Lastname 2',
               Title: 'Title 2',
-              Company: 'Company 2'
+              Company: 'Company 2',
+              IsReadOnly: 'True',
+              Width_Per_Cell: 86
             },
-            Contents: [
-              {
-                contactID: '566a6dc3-c72f-4205-bc26-cdb4b16203fd',
-                Type: 'Email',
-                Contents: [
-                  {
-                    noteContentsID: '566a6dc3-c72f-4205-bc26-cdb4b16203fd',
-                    Header: 'Phone',
-                    Contents_Text: [
-                      '2000000'
-                    ]
-                  }
-                ]
-              },
-              {
-                contactID: '566a6dc3-c72f-4205-bc26-cdb4b16203fd',
-                Type: 'Email',
-                Contents: [
-                  {
-                    noteContentsID: '566a6dc3-c72f-4205-bc26-cdb4b16203fd',
-                    Header: 'Email',
-                    Contents_Text: [
-                      'Email22@gmail.com'
-                    ]
-                  }
-                ]
-              },
-              {
-                contactID: '566a6dc3-c72f-4205-bc26-cdb4b16203fd',
-                Type: 'ConvoNotes',
-                Contents: [
-                  {
-                    noteContentsID: '16f711e9-3a3d-4829-bc44-71db3ae6ab2a',
-                    Header: 'Header 0',
-                    Contents_Text: [
-                      'Header 0 - Contentx_Text0',
-                      'Header 0 - Contentx_Text1',
-                      'Header 0 - Contentx_Text2',
-                      'Header 0 - Contentx_Text3',
-                      'Header 0 - Contentx_Text4'
-                    ]
-                  },
-                  {
-                    noteContentsID: 'bfc248c6-69ce-4ce1-9981-790fb5a5b4cd',
-                    Header: 'Header 1',
-                    Contents_Text: [
-                      'Header 1 - Contentx_Text0',
-                      'Header 1 - Contentx_Text1',
-                      'Header 1 - Contentx_Text2',
-                      'Header 1 - Contentx_Text3',
-                      'Header 1 - Contentx_Text4',
-                      'Header 1 - Contentx_Text5'
-                    ]
-                  },
-                  {
-                    noteContentsID: '4b789ec4-6ae5-4b86-b0c8-01145cb71449',
-                    Header: 'Header 2',
-                    Contents_Text: [
-                      'Header 2 - Contentx_Text0'
-                    ]
-                  }
-                ]
-              }
-            ],
             Email: {
-              emailID: 'bd490d1a-e508-4dbb-986e-50c191118fc7',
+              emailID: 'ef385f2e-58e7-4472-8de0-4cefd009dc5d',
               Email: 'Email22@gmail.com'
             },
             Phone: {
-              phoneID: 'f81754b1-0e77-44c3-b181-b2af7643a993',
+              phoneID: 'bee5068d-e7b9-4e87-83df-686d6b310ef8',
               PhoneNumber: '2000000'
             },
             Convo: [
               {
-                noteContentsID: '16f711e9-3a3d-4829-bc44-71db3ae6ab2a',
+                noteContentsID: 'a7d94fb8-3c0a-4edd-806d-3c933e97e51d',
                 Header: 'Header 0',
                 Contents_Text: [
                   'Header 0 - Contentx_Text0',
@@ -491,25 +296,42 @@ const database = {
                 ]
               },
               {
-                noteContentsID: 'bfc248c6-69ce-4ce1-9981-790fb5a5b4cd',
+                noteContentsID: '15ade458-84a3-4066-bbc8-6273b0f7e40e',
                 Header: 'Header 1',
                 Contents_Text: [
-                  'Header 1 - Contentx_Text0',
-                  'Header 1 - Contentx_Text1',
-                  'Header 1 - Contentx_Text2',
-                  'Header 1 - Contentx_Text3',
-                  'Header 1 - Contentx_Text4',
-                  'Header 1 - Contentx_Text5'
+                  'Header 1 - Contentx_Text0'
                 ]
               },
               {
-                noteContentsID: '4b789ec4-6ae5-4b86-b0c8-01145cb71449',
+                noteContentsID: '65cb5b36-72ab-46bf-992e-a859e1f3d248',
                 Header: 'Header 2',
                 Contents_Text: [
-                  'Header 2 - Contentx_Text0'
+                  'Header 2 - Contentx_Text0',
+                  'Header 2 - Contentx_Text1'
                 ]
               }
             ]
+          },
+          {
+            contactID: 'cb2120ee-5678-4d5a-bda2-6bb03453a454',
+            PersonalDetail: {
+              contactID: 'cb2120ee-5678-4d5a-bda2-6bb03453a454',
+              Firstname: 'Firstname 3',
+              Lastname: 'Lastname 3',
+              Title: 'Title 3',
+              Company: 'Company 3',
+              IsReadOnly: 'True',
+              Width_Per_Cell: 86
+            },
+            Email: {
+              emailID: '0528fceb-39e5-4831-bd7f-3c148cf7c83d',
+              Email: 'Email33@gmail.com'
+            },
+            Phone: {
+              phoneID: '1b6830b1-af05-413c-8355-ed0d9230ebfe',
+              PhoneNumber: '3000000'
+            },
+            Convo: []
           }
         ],
         FollowUps: [
@@ -741,285 +563,90 @@ const database = {
         ],
         Contacts: [
           {
-            contactID: '4b20aec1-e53c-40b4-9a02-328d43c3fcd6',
+            contactID: 'a5de0306-11eb-4d6e-9853-b8ce3cec718b',
             PersonalDetail: {
-              contactID: '4b20aec1-e53c-40b4-9a02-328d43c3fcd6',
+              contactID: 'a5de0306-11eb-4d6e-9853-b8ce3cec718b',
               Firstname: 'Firstname 0',
               Lastname: 'Lastname 0',
               Title: 'Title 0',
-              Company: 'Company 0'
+              Company: 'Company 0',
+              IsReadOnly: 'True',
+              Width_Per_Cell: 86
             },
-            Contents: [
-              {
-                contactID: '4b20aec1-e53c-40b4-9a02-328d43c3fcd6',
-                Type: 'Email',
-                Contents: [
-                  {
-                    noteContentsID: '4b20aec1-e53c-40b4-9a02-328d43c3fcd6',
-                    Header: 'Phone',
-                    Contents_Text: [
-                      '0'
-                    ]
-                  }
-                ]
-              },
-              {
-                contactID: '4b20aec1-e53c-40b4-9a02-328d43c3fcd6',
-                Type: 'Email',
-                Contents: [
-                  {
-                    noteContentsID: '4b20aec1-e53c-40b4-9a02-328d43c3fcd6',
-                    Header: 'Email',
-                    Contents_Text: [
-                      'Email00@gmail.com'
-                    ]
-                  }
-                ]
-              },
-              {
-                contactID: '4b20aec1-e53c-40b4-9a02-328d43c3fcd6',
-                Type: 'ConvoNotes',
-                Contents: [
-                  {
-                    noteContentsID: '64efdb50-b337-40ed-8fd0-41cadc0d7e1c',
-                    Header: 'Header 0',
-                    Contents_Text: [
-                      'Header 0 - Contentx_Text0'
-                    ]
-                  },
-                  {
-                    noteContentsID: '44aacc77-9ed4-4663-b457-ba8510e0209a',
-                    Header: 'Header 1',
-                    Contents_Text: [
-                      'Header 1 - Contentx_Text0'
-                    ]
-                  },
-                  {
-                    noteContentsID: '1d070bd6-ca2e-4da3-918d-e5e3f5d50383',
-                    Header: 'Header 2',
-                    Contents_Text: [
-                      'Header 2 - Contentx_Text0',
-                      'Header 2 - Contentx_Text1'
-                    ]
-                  }
-                ]
-              }
-            ],
             Email: {
-              emailID: 'e5550f77-c3d1-47ac-9985-1f18e511d176',
+              emailID: 'e7055cab-b8b2-4a1d-ba90-478b0e33bc39',
               Email: 'Email00@gmail.com'
             },
             Phone: {
-              phoneID: '39161d95-f1b5-4029-b6d4-5b3fa0528820',
+              phoneID: '2c7bd395-48f5-4c9a-ac1b-dd48af5ce8fc',
               PhoneNumber: '0'
             },
             Convo: [
               {
-                noteContentsID: '64efdb50-b337-40ed-8fd0-41cadc0d7e1c',
+                noteContentsID: 'a0ad0d90-2dd5-4b77-bb74-6df9d0382f01',
                 Header: 'Header 0',
                 Contents_Text: [
-                  'Header 0 - Contentx_Text0'
-                ]
-              },
-              {
-                noteContentsID: '44aacc77-9ed4-4663-b457-ba8510e0209a',
-                Header: 'Header 1',
-                Contents_Text: [
-                  'Header 1 - Contentx_Text0'
-                ]
-              },
-              {
-                noteContentsID: '1d070bd6-ca2e-4da3-918d-e5e3f5d50383',
-                Header: 'Header 2',
-                Contents_Text: [
-                  'Header 2 - Contentx_Text0',
-                  'Header 2 - Contentx_Text1'
+                  'Header 0 - Contentx_Text0',
+                  'Header 0 - Contentx_Text1',
+                  'Header 0 - Contentx_Text2',
+                  'Header 0 - Contentx_Text3',
+                  'Header 0 - Contentx_Text4'
                 ]
               }
             ]
           },
           {
-            contactID: 'f7977cf3-6d75-42af-be65-e92854b77533',
+            contactID: 'd86598b3-2a20-4fcc-9c21-8dc3ecd4d8b7',
             PersonalDetail: {
-              contactID: 'f7977cf3-6d75-42af-be65-e92854b77533',
+              contactID: 'd86598b3-2a20-4fcc-9c21-8dc3ecd4d8b7',
               Firstname: 'Firstname 1',
               Lastname: 'Lastname 1',
               Title: 'Title 1',
-              Company: 'Company 1'
+              Company: 'Company 1',
+              IsReadOnly: 'True',
+              Width_Per_Cell: 86
             },
-            Contents: [
-              {
-                contactID: 'f7977cf3-6d75-42af-be65-e92854b77533',
-                Type: 'Email',
-                Contents: [
-                  {
-                    noteContentsID: 'f7977cf3-6d75-42af-be65-e92854b77533',
-                    Header: 'Phone',
-                    Contents_Text: [
-                      '1000000'
-                    ]
-                  }
-                ]
-              },
-              {
-                contactID: 'f7977cf3-6d75-42af-be65-e92854b77533',
-                Type: 'Email',
-                Contents: [
-                  {
-                    noteContentsID: 'f7977cf3-6d75-42af-be65-e92854b77533',
-                    Header: 'Email',
-                    Contents_Text: [
-                      'Email11@gmail.com'
-                    ]
-                  }
-                ]
-              },
-              {
-                contactID: 'f7977cf3-6d75-42af-be65-e92854b77533',
-                Type: 'ConvoNotes',
-                Contents: [
-                  {
-                    noteContentsID: '8a51ca6b-319e-47e1-86f9-f0fb7a534c8e',
-                    Header: 'Header 0',
-                    Contents_Text: [
-                      'Header 0 - Contentx_Text0',
-                      'Header 0 - Contentx_Text1'
-                    ]
-                  },
-                  {
-                    noteContentsID: 'ad2011a0-4e19-4d0e-ad49-0f907dd35403',
-                    Header: 'Header 1',
-                    Contents_Text: [
-                      'Header 1 - Contentx_Text0'
-                    ]
-                  },
-                  {
-                    noteContentsID: '9741e34e-e119-48ec-87f4-9566b206af32',
-                    Header: 'Header 2',
-                    Contents_Text: [
-                      'Header 2 - Contentx_Text0'
-                    ]
-                  }
-                ]
-              }
-            ],
             Email: {
-              emailID: '5c446b93-e602-4b85-9a00-9a6bcfd1aa1e',
+              emailID: '65a38437-d8ab-426d-92d0-3fb72add8bd7',
               Email: 'Email11@gmail.com'
             },
             Phone: {
-              phoneID: 'b9bbff58-353c-49df-b441-75200dd32d64',
+              phoneID: '1ada0518-e7a8-4076-9df7-85838e3e7ec6',
               PhoneNumber: '1000000'
             },
             Convo: [
               {
-                noteContentsID: '8a51ca6b-319e-47e1-86f9-f0fb7a534c8e',
+                noteContentsID: 'eefed138-88ff-475f-9cbc-91988119e233',
                 Header: 'Header 0',
                 Contents_Text: [
                   'Header 0 - Contentx_Text0',
                   'Header 0 - Contentx_Text1'
                 ]
-              },
-              {
-                noteContentsID: 'ad2011a0-4e19-4d0e-ad49-0f907dd35403',
-                Header: 'Header 1',
-                Contents_Text: [
-                  'Header 1 - Contentx_Text0'
-                ]
-              },
-              {
-                noteContentsID: '9741e34e-e119-48ec-87f4-9566b206af32',
-                Header: 'Header 2',
-                Contents_Text: [
-                  'Header 2 - Contentx_Text0'
-                ]
               }
             ]
           },
           {
-            contactID: '566a6dc3-c72f-4205-bc26-cdb4b16203fd',
+            contactID: '78abcc22-397c-43cf-88e7-5a0bce0e131d',
             PersonalDetail: {
-              contactID: '566a6dc3-c72f-4205-bc26-cdb4b16203fd',
+              contactID: '78abcc22-397c-43cf-88e7-5a0bce0e131d',
               Firstname: 'Firstname 2',
               Lastname: 'Lastname 2',
               Title: 'Title 2',
-              Company: 'Company 2'
+              Company: 'Company 2',
+              IsReadOnly: 'True',
+              Width_Per_Cell: 86
             },
-            Contents: [
-              {
-                contactID: '566a6dc3-c72f-4205-bc26-cdb4b16203fd',
-                Type: 'Email',
-                Contents: [
-                  {
-                    noteContentsID: '566a6dc3-c72f-4205-bc26-cdb4b16203fd',
-                    Header: 'Phone',
-                    Contents_Text: [
-                      '2000000'
-                    ]
-                  }
-                ]
-              },
-              {
-                contactID: '566a6dc3-c72f-4205-bc26-cdb4b16203fd',
-                Type: 'Email',
-                Contents: [
-                  {
-                    noteContentsID: '566a6dc3-c72f-4205-bc26-cdb4b16203fd',
-                    Header: 'Email',
-                    Contents_Text: [
-                      'Email22@gmail.com'
-                    ]
-                  }
-                ]
-              },
-              {
-                contactID: '566a6dc3-c72f-4205-bc26-cdb4b16203fd',
-                Type: 'ConvoNotes',
-                Contents: [
-                  {
-                    noteContentsID: '16f711e9-3a3d-4829-bc44-71db3ae6ab2a',
-                    Header: 'Header 0',
-                    Contents_Text: [
-                      'Header 0 - Contentx_Text0',
-                      'Header 0 - Contentx_Text1',
-                      'Header 0 - Contentx_Text2',
-                      'Header 0 - Contentx_Text3',
-                      'Header 0 - Contentx_Text4'
-                    ]
-                  },
-                  {
-                    noteContentsID: 'bfc248c6-69ce-4ce1-9981-790fb5a5b4cd',
-                    Header: 'Header 1',
-                    Contents_Text: [
-                      'Header 1 - Contentx_Text0',
-                      'Header 1 - Contentx_Text1',
-                      'Header 1 - Contentx_Text2',
-                      'Header 1 - Contentx_Text3',
-                      'Header 1 - Contentx_Text4',
-                      'Header 1 - Contentx_Text5'
-                    ]
-                  },
-                  {
-                    noteContentsID: '4b789ec4-6ae5-4b86-b0c8-01145cb71449',
-                    Header: 'Header 2',
-                    Contents_Text: [
-                      'Header 2 - Contentx_Text0'
-                    ]
-                  }
-                ]
-              }
-            ],
             Email: {
-              emailID: 'bd490d1a-e508-4dbb-986e-50c191118fc7',
+              emailID: 'ef385f2e-58e7-4472-8de0-4cefd009dc5d',
               Email: 'Email22@gmail.com'
             },
             Phone: {
-              phoneID: 'f81754b1-0e77-44c3-b181-b2af7643a993',
+              phoneID: 'bee5068d-e7b9-4e87-83df-686d6b310ef8',
               PhoneNumber: '2000000'
             },
             Convo: [
               {
-                noteContentsID: '16f711e9-3a3d-4829-bc44-71db3ae6ab2a',
+                noteContentsID: 'a7d94fb8-3c0a-4edd-806d-3c933e97e51d',
                 Header: 'Header 0',
                 Contents_Text: [
                   'Header 0 - Contentx_Text0',
@@ -1030,25 +657,42 @@ const database = {
                 ]
               },
               {
-                noteContentsID: 'bfc248c6-69ce-4ce1-9981-790fb5a5b4cd',
+                noteContentsID: '15ade458-84a3-4066-bbc8-6273b0f7e40e',
                 Header: 'Header 1',
                 Contents_Text: [
-                  'Header 1 - Contentx_Text0',
-                  'Header 1 - Contentx_Text1',
-                  'Header 1 - Contentx_Text2',
-                  'Header 1 - Contentx_Text3',
-                  'Header 1 - Contentx_Text4',
-                  'Header 1 - Contentx_Text5'
+                  'Header 1 - Contentx_Text0'
                 ]
               },
               {
-                noteContentsID: '4b789ec4-6ae5-4b86-b0c8-01145cb71449',
+                noteContentsID: '65cb5b36-72ab-46bf-992e-a859e1f3d248',
                 Header: 'Header 2',
                 Contents_Text: [
-                  'Header 2 - Contentx_Text0'
+                  'Header 2 - Contentx_Text0',
+                  'Header 2 - Contentx_Text1'
                 ]
               }
             ]
+          },
+          {
+            contactID: 'cb2120ee-f5b1-4d5a-bda2-6bb03453a454',
+            PersonalDetail: {
+              contactID: 'cb2120ee-f5b1-4d5a-bda2-6bb03453a454',
+              Firstname: 'Firstname 3',
+              Lastname: 'Lastname 3',
+              Title: 'Title 3',
+              Company: 'Company 3',
+              IsReadOnly: 'True',
+              Width_Per_Cell: 86
+            },
+            Email: {
+              emailID: '0528fceb-39e5-4831-bd7f-3c148cf7c83d',
+              Email: 'Email33@gmail.com'
+            },
+            Phone: {
+              phoneID: '1b6830b1-af05-413c-8355-ed0d9230ebfe',
+              PhoneNumber: '3000000'
+            },
+            Convo: []
           }
         ],
         FollowUps: [
@@ -1098,23 +742,96 @@ const database = {
         ],
         Checklists: [
           {
-            checklistID: 'c4c2902c-3ed8-45ec-aa33-2085969e2608',
-            Type: 'Resume',
-            Submission: false,
-            Files: null
+          checkListsID: "43932ac3-1231-vjoa-zvas-e1db4c6cf36d",
+          Detail: {
+            checkListsID: "43932ac3-1231-vjoa-zvas-e1db4c6cf36d",
+            Title: "Checklist-item-1",
+            Time: "2020-10-24T10:20:08.7427985-04:00"
+          },
+          Contents : [
+            {
+              checklistID: 'c4c2902c-3ed8-45ec-aa33-2085969e2608',
+              Type: 'Resume',
+              Submission: false,
+              Files: null
+            },
+            {
+              checklistID: 'ce6ac40e-20a5-458c-9b6f-9402e0a12dbb',
+              Type: 'Cover Letter',
+              Submission: false,
+              Files: null
+            },
+            {
+              checklistID: '566fbb25-6c53-44de-9a31-5aa7ba676507',
+              Type: 'Portfolio Link',
+              Submission: false,
+              Files: null
+            }
+          ]
+        },
+        ],
+        Events: [
+          {
+            eventID: '4515b10d-8a6c-4c16-ad84-d60c6593225d',
+            Detail: {
+              eventID: '4515b10d-8a6c-4c16-ad84-d60c6593225d',
+              applicationID: '9a3c98d6-171f-42e9-a8b9-9e7a9799f48f',
+              Time: '2020-11-22T23:14:44.573133-05:00',
+              Location: 'Location 11',
+              Title: 'Title 11'
+            },
+            Contents: [
+              {
+                eventContentsID: 'bfd730b6-1234-43be-bb2a-3acaf80fd816',
+                Header: 'Header 0',
+                Contents_Text: [
+                  'Header 0 - Contentx_Text0',
+                  'Header 0 - Contentx_Text1',
+                ]
+              },
+            ],
+          },
+
+          {
+            eventID: '13a95d76-ef76-4d76-a8bb-2e2166a934c6',
+            Detail: {
+              eventID: '13a95d76-ef76-4d76-a8bb-2e2166a934c6',
+              applicationID: '9a3c98d6-171f-42e9-a8b9-9e7a9799f48f',
+              Time: '2021-01-29T23:14:44.5733963-05:00',
+              Location: 'Location 79',
+              Title: 'Title 79'
+            },
+            Contents: [
+              {
+                eventContentsID: 'bfd730b6-5678-43be-bb2a-3acaf80fd816',
+                Header: 'Header 1',
+                Contents_Text: [
+                  'Header 1 - Contentx_Text0',
+                  'Header 1 - Contentx_Text1',
+                ]
+              },
+            ],
           },
           {
-            checklistID: 'ce6ac40e-20a5-458c-9b6f-9402e0a12dbb',
-            Type: 'Cover Letter',
-            Submission: false,
-            Files: null
+            eventID: '4d1c4783-13a8-44cd-a385-b529517266ba',
+            Detail: {
+              eventID: '4d1c4783-13a8-44cd-a385-b529517266ba',
+              applicationID: '9a3c98d6-171f-42e9-a8b9-9e7a9799f48f',
+              Time: '2020-12-23T23:14:44.5733996-05:00',
+              Location: 'Location 42',
+              Title: 'Title 42'
+            },
+            Contents: [
+              {
+                eventContentsID: 'bfd730b6-7890-43be-bb2a-3acaf80fd816',
+                Header: 'Header 2',
+                Contents_Text: [
+                  'Header 2 - Contentx_Text0',
+                  'Header 2 - Contentx_Text1',
+                ]
+              },
+            ],
           },
-          {
-            checklistID: '566fbb25-6c53-44de-9a31-5aa7ba676507',
-            Type: 'Portfolio Link',
-            Submission: false,
-            Files: null
-          }
         ]
         },
         {
@@ -1205,285 +922,90 @@ const database = {
             ],
             Contacts: [
               {
-                contactID: '4b20aec1-e53c-40b4-9a02-328d43c3fcd6',
+                contactID: 'a5de0306-1234-4d6e-9853-b8ce3cec718b',
                 PersonalDetail: {
-                  contactID: '4b20aec1-e53c-40b4-9a02-328d43c3fcd6',
+                  contactID: 'a5de0306-1234-4d6e-9853-b8ce3cec718b',
                   Firstname: 'Firstname 0',
                   Lastname: 'Lastname 0',
                   Title: 'Title 0',
-                  Company: 'Company 0'
+                  Company: 'Company 0',
+                  IsReadOnly: 'True',
+                  Width_Per_Cell: 86
                 },
-                Contents: [
-                  {
-                    contactID: '4b20aec1-e53c-40b4-9a02-328d43c3fcd6',
-                    Type: 'Email',
-                    Contents: [
-                      {
-                        noteContentsID: '4b20aec1-e53c-40b4-9a02-328d43c3fcd6',
-                        Header: 'Phone',
-                        Contents_Text: [
-                          '0'
-                        ]
-                      }
-                    ]
-                  },
-                  {
-                    contactID: '4b20aec1-e53c-40b4-9a02-328d43c3fcd6',
-                    Type: 'Email',
-                    Contents: [
-                      {
-                        noteContentsID: '4b20aec1-e53c-40b4-9a02-328d43c3fcd6',
-                        Header: 'Email',
-                        Contents_Text: [
-                          'Email00@gmail.com'
-                        ]
-                      }
-                    ]
-                  },
-                  {
-                    contactID: '4b20aec1-e53c-40b4-9a02-328d43c3fcd6',
-                    Type: 'ConvoNotes',
-                    Contents: [
-                      {
-                        noteContentsID: '64efdb50-b337-40ed-8fd0-41cadc0d7e1c',
-                        Header: 'Header 0',
-                        Contents_Text: [
-                          'Header 0 - Contentx_Text0'
-                        ]
-                      },
-                      {
-                        noteContentsID: '44aacc77-9ed4-4663-b457-ba8510e0209a',
-                        Header: 'Header 1',
-                        Contents_Text: [
-                          'Header 1 - Contentx_Text0'
-                        ]
-                      },
-                      {
-                        noteContentsID: '1d070bd6-ca2e-4da3-918d-e5e3f5d50383',
-                        Header: 'Header 2',
-                        Contents_Text: [
-                          'Header 2 - Contentx_Text0',
-                          'Header 2 - Contentx_Text1'
-                        ]
-                      }
-                    ]
-                  }
-                ],
                 Email: {
-                  emailID: 'e5550f77-c3d1-47ac-9985-1f18e511d176',
+                  emailID: 'e7055cab-b8b2-4a1d-ba90-478b0e33bc39',
                   Email: 'Email00@gmail.com'
                 },
                 Phone: {
-                  phoneID: '39161d95-f1b5-4029-b6d4-5b3fa0528820',
+                  phoneID: '2c7bd395-48f5-4c9a-ac1b-dd48af5ce8fc',
                   PhoneNumber: '0'
                 },
                 Convo: [
                   {
-                    noteContentsID: '64efdb50-b337-40ed-8fd0-41cadc0d7e1c',
+                    noteContentsID: 'a0ad0d90-2dd5-4b77-bb74-6df9d0382f01',
                     Header: 'Header 0',
                     Contents_Text: [
-                      'Header 0 - Contentx_Text0'
-                    ]
-                  },
-                  {
-                    noteContentsID: '44aacc77-9ed4-4663-b457-ba8510e0209a',
-                    Header: 'Header 1',
-                    Contents_Text: [
-                      'Header 1 - Contentx_Text0'
-                    ]
-                  },
-                  {
-                    noteContentsID: '1d070bd6-ca2e-4da3-918d-e5e3f5d50383',
-                    Header: 'Header 2',
-                    Contents_Text: [
-                      'Header 2 - Contentx_Text0',
-                      'Header 2 - Contentx_Text1'
+                      'Header 0 - Contentx_Text0',
+                      'Header 0 - Contentx_Text1',
+                      'Header 0 - Contentx_Text2',
+                      'Header 0 - Contentx_Text3',
+                      'Header 0 - Contentx_Text4'
                     ]
                   }
                 ]
               },
               {
-                contactID: 'f7977cf3-6d75-42af-be65-e92854b77533',
+                contactID: 'd86598b3-2345-4fcc-9c21-8dc3ecd4d8b7',
                 PersonalDetail: {
-                  contactID: 'f7977cf3-6d75-42af-be65-e92854b77533',
+                  contactID: 'd86598b3-2345-4fcc-9c21-8dc3ecd4d8b7',
                   Firstname: 'Firstname 1',
                   Lastname: 'Lastname 1',
                   Title: 'Title 1',
-                  Company: 'Company 1'
+                  Company: 'Company 1',
+                  IsReadOnly: 'True',
+                  Width_Per_Cell: 86
                 },
-                Contents: [
-                  {
-                    contactID: 'f7977cf3-6d75-42af-be65-e92854b77533',
-                    Type: 'Email',
-                    Contents: [
-                      {
-                        noteContentsID: 'f7977cf3-6d75-42af-be65-e92854b77533',
-                        Header: 'Phone',
-                        Contents_Text: [
-                          '1000000'
-                        ]
-                      }
-                    ]
-                  },
-                  {
-                    contactID: 'f7977cf3-6d75-42af-be65-e92854b77533',
-                    Type: 'Email',
-                    Contents: [
-                      {
-                        noteContentsID: 'f7977cf3-6d75-42af-be65-e92854b77533',
-                        Header: 'Email',
-                        Contents_Text: [
-                          'Email11@gmail.com'
-                        ]
-                      }
-                    ]
-                  },
-                  {
-                    contactID: 'f7977cf3-6d75-42af-be65-e92854b77533',
-                    Type: 'ConvoNotes',
-                    Contents: [
-                      {
-                        noteContentsID: '8a51ca6b-319e-47e1-86f9-f0fb7a534c8e',
-                        Header: 'Header 0',
-                        Contents_Text: [
-                          'Header 0 - Contentx_Text0',
-                          'Header 0 - Contentx_Text1'
-                        ]
-                      },
-                      {
-                        noteContentsID: 'ad2011a0-4e19-4d0e-ad49-0f907dd35403',
-                        Header: 'Header 1',
-                        Contents_Text: [
-                          'Header 1 - Contentx_Text0'
-                        ]
-                      },
-                      {
-                        noteContentsID: '9741e34e-e119-48ec-87f4-9566b206af32',
-                        Header: 'Header 2',
-                        Contents_Text: [
-                          'Header 2 - Contentx_Text0'
-                        ]
-                      }
-                    ]
-                  }
-                ],
                 Email: {
-                  emailID: '5c446b93-e602-4b85-9a00-9a6bcfd1aa1e',
+                  emailID: '65a38437-d8ab-426d-92d0-3fb72add8bd7',
                   Email: 'Email11@gmail.com'
                 },
                 Phone: {
-                  phoneID: 'b9bbff58-353c-49df-b441-75200dd32d64',
+                  phoneID: '1ada0518-e7a8-4076-9df7-85838e3e7ec6',
                   PhoneNumber: '1000000'
                 },
                 Convo: [
                   {
-                    noteContentsID: '8a51ca6b-319e-47e1-86f9-f0fb7a534c8e',
+                    noteContentsID: 'eefed138-88ff-475f-9cbc-91988119e233',
                     Header: 'Header 0',
                     Contents_Text: [
                       'Header 0 - Contentx_Text0',
                       'Header 0 - Contentx_Text1'
                     ]
-                  },
-                  {
-                    noteContentsID: 'ad2011a0-4e19-4d0e-ad49-0f907dd35403',
-                    Header: 'Header 1',
-                    Contents_Text: [
-                      'Header 1 - Contentx_Text0'
-                    ]
-                  },
-                  {
-                    noteContentsID: '9741e34e-e119-48ec-87f4-9566b206af32',
-                    Header: 'Header 2',
-                    Contents_Text: [
-                      'Header 2 - Contentx_Text0'
-                    ]
                   }
                 ]
               },
               {
-                contactID: '566a6dc3-c72f-4205-bc26-cdb4b16203fd',
+                contactID: '78abcc22-6789-43cf-88e7-5a0bce0e131d',
                 PersonalDetail: {
-                  contactID: '566a6dc3-c72f-4205-bc26-cdb4b16203fd',
+                  contactID: '78abcc22-6789-43cf-88e7-5a0bce0e131d',
                   Firstname: 'Firstname 2',
                   Lastname: 'Lastname 2',
                   Title: 'Title 2',
-                  Company: 'Company 2'
+                  Company: 'Company 2',
+                  IsReadOnly: 'True',
+                  Width_Per_Cell: 86
                 },
-                Contents: [
-                  {
-                    contactID: '566a6dc3-c72f-4205-bc26-cdb4b16203fd',
-                    Type: 'Email',
-                    Contents: [
-                      {
-                        noteContentsID: '566a6dc3-c72f-4205-bc26-cdb4b16203fd',
-                        Header: 'Phone',
-                        Contents_Text: [
-                          '2000000'
-                        ]
-                      }
-                    ]
-                  },
-                  {
-                    contactID: '566a6dc3-c72f-4205-bc26-cdb4b16203fd',
-                    Type: 'Email',
-                    Contents: [
-                      {
-                        noteContentsID: '566a6dc3-c72f-4205-bc26-cdb4b16203fd',
-                        Header: 'Email',
-                        Contents_Text: [
-                          'Email22@gmail.com'
-                        ]
-                      }
-                    ]
-                  },
-                  {
-                    contactID: '566a6dc3-c72f-4205-bc26-cdb4b16203fd',
-                    Type: 'ConvoNotes',
-                    Contents: [
-                      {
-                        noteContentsID: '16f711e9-3a3d-4829-bc44-71db3ae6ab2a',
-                        Header: 'Header 0',
-                        Contents_Text: [
-                          'Header 0 - Contentx_Text0',
-                          'Header 0 - Contentx_Text1',
-                          'Header 0 - Contentx_Text2',
-                          'Header 0 - Contentx_Text3',
-                          'Header 0 - Contentx_Text4'
-                        ]
-                      },
-                      {
-                        noteContentsID: 'bfc248c6-69ce-4ce1-9981-790fb5a5b4cd',
-                        Header: 'Header 1',
-                        Contents_Text: [
-                          'Header 1 - Contentx_Text0',
-                          'Header 1 - Contentx_Text1',
-                          'Header 1 - Contentx_Text2',
-                          'Header 1 - Contentx_Text3',
-                          'Header 1 - Contentx_Text4',
-                          'Header 1 - Contentx_Text5'
-                        ]
-                      },
-                      {
-                        noteContentsID: '4b789ec4-6ae5-4b86-b0c8-01145cb71449',
-                        Header: 'Header 2',
-                        Contents_Text: [
-                          'Header 2 - Contentx_Text0'
-                        ]
-                      }
-                    ]
-                  }
-                ],
                 Email: {
-                  emailID: 'bd490d1a-e508-4dbb-986e-50c191118fc7',
+                  emailID: 'ef385f2e-58e7-4472-8de0-4cefd009dc5d',
                   Email: 'Email22@gmail.com'
                 },
                 Phone: {
-                  phoneID: 'f81754b1-0e77-44c3-b181-b2af7643a993',
+                  phoneID: 'bee5068d-e7b9-4e87-83df-686d6b310ef8',
                   PhoneNumber: '2000000'
                 },
                 Convo: [
                   {
-                    noteContentsID: '16f711e9-3a3d-4829-bc44-71db3ae6ab2a',
+                    noteContentsID: 'a7d94fb8-3c0a-4edd-806d-3c933e97e51d',
                     Header: 'Header 0',
                     Contents_Text: [
                       'Header 0 - Contentx_Text0',
@@ -1494,25 +1016,42 @@ const database = {
                     ]
                   },
                   {
-                    noteContentsID: 'bfc248c6-69ce-4ce1-9981-790fb5a5b4cd',
+                    noteContentsID: '15ade458-84a3-4066-bbc8-6273b0f7e40e',
                     Header: 'Header 1',
                     Contents_Text: [
-                      'Header 1 - Contentx_Text0',
-                      'Header 1 - Contentx_Text1',
-                      'Header 1 - Contentx_Text2',
-                      'Header 1 - Contentx_Text3',
-                      'Header 1 - Contentx_Text4',
-                      'Header 1 - Contentx_Text5'
+                      'Header 1 - Contentx_Text0'
                     ]
                   },
                   {
-                    noteContentsID: '4b789ec4-6ae5-4b86-b0c8-01145cb71449',
+                    noteContentsID: '65cb5b36-72ab-46bf-992e-a859e1f3d248',
                     Header: 'Header 2',
                     Contents_Text: [
-                      'Header 2 - Contentx_Text0'
+                      'Header 2 - Contentx_Text0',
+                      'Header 2 - Contentx_Text1'
                     ]
                   }
                 ]
+              },
+              {
+                contactID: 'cb2120ee-1928-4d5a-bda2-6bb03453a454',
+                PersonalDetail: {
+                  contactID: 'cb2120ee-1928-4d5a-bda2-6bb03453a454',
+                  Firstname: 'Firstname 3',
+                  Lastname: 'Lastname 3',
+                  Title: 'Title 3',
+                  Company: 'Company 3',
+                  IsReadOnly: 'True',
+                  Width_Per_Cell: 86
+                },
+                Email: {
+                  emailID: '0528fceb-39e5-4831-bd7f-3c148cf7c83d',
+                  Email: 'Email33@gmail.com'
+                },
+                Phone: {
+                  phoneID: '1b6830b1-af05-413c-8355-ed0d9230ebfe',
+                  PhoneNumber: '3000000'
+                },
+                Convo: []
               }
             ],
             FollowUps: [
@@ -1590,6 +1129,69 @@ const database = {
               ]
             },
             ],
+            Events: [
+              {
+                eventID: '4515b10d-8a6c-4c16-ad84-d60c6593225d',
+                Detail: {
+                  eventID: '4515b10d-8a6c-4c16-ad84-d60c6593225d',
+                  applicationID: '9a3c98d6-171f-42e9-a8b9-9e7a9799f48f',
+                  Time: '2020-11-22T23:14:44.573133-05:00',
+                  Location: 'Location 11',
+                  Title: 'Title 11'
+                },
+                Contents: [
+                  {
+                    eventContentsID: 'bfd730b6-1234-43be-bb2a-3acaf80fd816',
+                    Header: 'Header 0',
+                    Contents_Text: [
+                      'Header 0 - Contentx_Text0',
+                      'Header 0 - Contentx_Text1',
+                    ]
+                  },
+                ],
+              },
+    
+              {
+                eventID: '13a95d76-ef76-4d76-a8bb-2e2166a934c6',
+                Detail: {
+                  eventID: '13a95d76-ef76-4d76-a8bb-2e2166a934c6',
+                  applicationID: '9a3c98d6-171f-42e9-a8b9-9e7a9799f48f',
+                  Time: '2021-01-29T23:14:44.5733963-05:00',
+                  Location: 'Location 79',
+                  Title: 'Title 79'
+                },
+                Contents: [
+                  {
+                    eventContentsID: 'bfd730b6-5678-43be-bb2a-3acaf80fd816',
+                    Header: 'Header 1',
+                    Contents_Text: [
+                      'Header 1 - Contentx_Text0',
+                      'Header 1 - Contentx_Text1',
+                    ]
+                  },
+                ],
+              },
+              {
+                eventID: '4d1c4783-13a8-44cd-a385-b529517266ba',
+                Detail: {
+                  eventID: '4d1c4783-13a8-44cd-a385-b529517266ba',
+                  applicationID: '9a3c98d6-171f-42e9-a8b9-9e7a9799f48f',
+                  Time: '2020-12-23T23:14:44.5733996-05:00',
+                  Location: 'Location 42',
+                  Title: 'Title 42'
+                },
+                Contents: [
+                  {
+                    eventContentsID: 'bfd730b6-7890-43be-bb2a-3acaf80fd816',
+                    Header: 'Header 2',
+                    Contents_Text: [
+                      'Header 2 - Contentx_Text0',
+                      'Header 2 - Contentx_Text1',
+                    ]
+                  },
+                ],
+              },
+            ]
             }
     ]
 }
@@ -1724,287 +1326,93 @@ app.post('/newapp', (req, res) =>{
                   ]
                 }
             ],
+
             Contacts: [
               {
-                contactID: '4b20aec1-e53c-40b4-9a02-328d43c3fcd6',
+                contactID: 'a5de0306-11eb-4d6e-9853-b8ce3cec718b',
                 PersonalDetail: {
-                  contactID: '4b20aec1-e53c-40b4-9a02-328d43c3fcd6',
+                  contactID: 'a5de0306-11eb-4d6e-9853-b8ce3cec718b',
                   Firstname: 'Firstname 0',
                   Lastname: 'Lastname 0',
                   Title: 'Title 0',
-                  Company: 'Company 0'
+                  Company: 'Company 0',
+                  IsReadOnly: 'True',
+                  Width_Per_Cell: 86
                 },
-                Contents: [
-                  {
-                    contactID: '4b20aec1-e53c-40b4-9a02-328d43c3fcd6',
-                    Type: 'Email',
-                    Contents: [
-                      {
-                        noteContentsID: '4b20aec1-e53c-40b4-9a02-328d43c3fcd6',
-                        Header: 'Phone',
-                        Contents_Text: [
-                          '0'
-                        ]
-                      }
-                    ]
-                  },
-                  {
-                    contactID: '4b20aec1-e53c-40b4-9a02-328d43c3fcd6',
-                    Type: 'Email',
-                    Contents: [
-                      {
-                        noteContentsID: '4b20aec1-e53c-40b4-9a02-328d43c3fcd6',
-                        Header: 'Email',
-                        Contents_Text: [
-                          'Email00@gmail.com'
-                        ]
-                      }
-                    ]
-                  },
-                  {
-                    contactID: '4b20aec1-e53c-40b4-9a02-328d43c3fcd6',
-                    Type: 'ConvoNotes',
-                    Contents: [
-                      {
-                        noteContentsID: '64efdb50-b337-40ed-8fd0-41cadc0d7e1c',
-                        Header: 'Header 0',
-                        Contents_Text: [
-                          'Header 0 - Contentx_Text0'
-                        ]
-                      },
-                      {
-                        noteContentsID: '44aacc77-9ed4-4663-b457-ba8510e0209a',
-                        Header: 'Header 1',
-                        Contents_Text: [
-                          'Header 1 - Contentx_Text0'
-                        ]
-                      },
-                      {
-                        noteContentsID: '1d070bd6-ca2e-4da3-918d-e5e3f5d50383',
-                        Header: 'Header 2',
-                        Contents_Text: [
-                          'Header 2 - Contentx_Text0',
-                          'Header 2 - Contentx_Text1'
-                        ]
-                      }
-                    ]
-                  }
-                ],
                 Email: {
-                  emailID: 'e5550f77-c3d1-47ac-9985-1f18e511d176',
+                  emailID: 'e7055cab-b8b2-4a1d-ba90-478b0e33bc39',
                   Email: 'Email00@gmail.com'
                 },
                 Phone: {
-                  phoneID: '39161d95-f1b5-4029-b6d4-5b3fa0528820',
+                  phoneID: '2c7bd395-48f5-4c9a-ac1b-dd48af5ce8fc',
                   PhoneNumber: '0'
                 },
                 Convo: [
                   {
-                    noteContentsID: '64efdb50-b337-40ed-8fd0-41cadc0d7e1c',
+                    noteContentsID: 'a0ad0d90-2dd5-4b77-bb74-6df9d0382f01',
                     Header: 'Header 0',
                     Contents_Text: [
-                      'Header 0 - Contentx_Text0'
-                    ]
-                  },
-                  {
-                    noteContentsID: '44aacc77-9ed4-4663-b457-ba8510e0209a',
-                    Header: 'Header 1',
-                    Contents_Text: [
-                      'Header 1 - Contentx_Text0'
-                    ]
-                  },
-                  {
-                    noteContentsID: '1d070bd6-ca2e-4da3-918d-e5e3f5d50383',
-                    Header: 'Header 2',
-                    Contents_Text: [
-                      'Header 2 - Contentx_Text0',
-                      'Header 2 - Contentx_Text1'
+                      'Header 0 - Contentx_Text0',
+                      'Header 0 - Contentx_Text1',
+                      'Header 0 - Contentx_Text2',
+                      'Header 0 - Contentx_Text3',
+                      'Header 0 - Contentx_Text4'
                     ]
                   }
                 ]
               },
               {
-                contactID: 'f7977cf3-6d75-42af-be65-e92854b77533',
+                contactID: 'd86598b3-2a20-4fcc-9c21-8dc3ecd4d8b7',
                 PersonalDetail: {
-                  contactID: 'f7977cf3-6d75-42af-be65-e92854b77533',
+                  contactID: 'd86598b3-2a20-4fcc-9c21-8dc3ecd4d8b7',
                   Firstname: 'Firstname 1',
                   Lastname: 'Lastname 1',
                   Title: 'Title 1',
-                  Company: 'Company 1'
+                  Company: 'Company 1',
+                  IsReadOnly: 'True',
+                  Width_Per_Cell: 86
                 },
-                Contents: [
-                  {
-                    contactID: 'f7977cf3-6d75-42af-be65-e92854b77533',
-                    Type: 'Email',
-                    Contents: [
-                      {
-                        noteContentsID: 'f7977cf3-6d75-42af-be65-e92854b77533',
-                        Header: 'Phone',
-                        Contents_Text: [
-                          '1000000'
-                        ]
-                      }
-                    ]
-                  },
-                  {
-                    contactID: 'f7977cf3-6d75-42af-be65-e92854b77533',
-                    Type: 'Email',
-                    Contents: [
-                      {
-                        noteContentsID: 'f7977cf3-6d75-42af-be65-e92854b77533',
-                        Header: 'Email',
-                        Contents_Text: [
-                          'Email11@gmail.com'
-                        ]
-                      }
-                    ]
-                  },
-                  {
-                    contactID: 'f7977cf3-6d75-42af-be65-e92854b77533',
-                    Type: 'ConvoNotes',
-                    Contents: [
-                      {
-                        noteContentsID: '8a51ca6b-319e-47e1-86f9-f0fb7a534c8e',
-                        Header: 'Header 0',
-                        Contents_Text: [
-                          'Header 0 - Contentx_Text0',
-                          'Header 0 - Contentx_Text1'
-                        ]
-                      },
-                      {
-                        noteContentsID: 'ad2011a0-4e19-4d0e-ad49-0f907dd35403',
-                        Header: 'Header 1',
-                        Contents_Text: [
-                          'Header 1 - Contentx_Text0'
-                        ]
-                      },
-                      {
-                        noteContentsID: '9741e34e-e119-48ec-87f4-9566b206af32',
-                        Header: 'Header 2',
-                        Contents_Text: [
-                          'Header 2 - Contentx_Text0'
-                        ]
-                      }
-                    ]
-                  }
-                ],
                 Email: {
-                  emailID: '5c446b93-e602-4b85-9a00-9a6bcfd1aa1e',
+                  emailID: '65a38437-d8ab-426d-92d0-3fb72add8bd7',
                   Email: 'Email11@gmail.com'
                 },
                 Phone: {
-                  phoneID: 'b9bbff58-353c-49df-b441-75200dd32d64',
+                  phoneID: '1ada0518-e7a8-4076-9df7-85838e3e7ec6',
                   PhoneNumber: '1000000'
                 },
                 Convo: [
                   {
-                    noteContentsID: '8a51ca6b-319e-47e1-86f9-f0fb7a534c8e',
+                    noteContentsID: 'eefed138-88ff-475f-9cbc-91988119e233',
                     Header: 'Header 0',
                     Contents_Text: [
                       'Header 0 - Contentx_Text0',
                       'Header 0 - Contentx_Text1'
                     ]
-                  },
-                  {
-                    noteContentsID: 'ad2011a0-4e19-4d0e-ad49-0f907dd35403',
-                    Header: 'Header 1',
-                    Contents_Text: [
-                      'Header 1 - Contentx_Text0'
-                    ]
-                  },
-                  {
-                    noteContentsID: '9741e34e-e119-48ec-87f4-9566b206af32',
-                    Header: 'Header 2',
-                    Contents_Text: [
-                      'Header 2 - Contentx_Text0'
-                    ]
                   }
                 ]
               },
               {
-                contactID: '566a6dc3-c72f-4205-bc26-cdb4b16203fd',
+                contactID: '78abcc22-397c-43cf-88e7-5a0bce0e131d',
                 PersonalDetail: {
-                  contactID: '566a6dc3-c72f-4205-bc26-cdb4b16203fd',
+                  contactID: '78abcc22-397c-43cf-88e7-5a0bce0e131d',
                   Firstname: 'Firstname 2',
                   Lastname: 'Lastname 2',
                   Title: 'Title 2',
-                  Company: 'Company 2'
+                  Company: 'Company 2',
+                  IsReadOnly: 'True',
+                  Width_Per_Cell: 86
                 },
-                Contents: [
-                  {
-                    contactID: '566a6dc3-c72f-4205-bc26-cdb4b16203fd',
-                    Type: 'Email',
-                    Contents: [
-                      {
-                        noteContentsID: '566a6dc3-c72f-4205-bc26-cdb4b16203fd',
-                        Header: 'Phone',
-                        Contents_Text: [
-                          '2000000'
-                        ]
-                      }
-                    ]
-                  },
-                  {
-                    contactID: '566a6dc3-c72f-4205-bc26-cdb4b16203fd',
-                    Type: 'Email',
-                    Contents: [
-                      {
-                        noteContentsID: '566a6dc3-c72f-4205-bc26-cdb4b16203fd',
-                        Header: 'Email',
-                        Contents_Text: [
-                          'Email22@gmail.com'
-                        ]
-                      }
-                    ]
-                  },
-                  {
-                    contactID: '566a6dc3-c72f-4205-bc26-cdb4b16203fd',
-                    Type: 'ConvoNotes',
-                    Contents: [
-                      {
-                        noteContentsID: '16f711e9-3a3d-4829-bc44-71db3ae6ab2a',
-                        Header: 'Header 0',
-                        Contents_Text: [
-                          'Header 0 - Contentx_Text0',
-                          'Header 0 - Contentx_Text1',
-                          'Header 0 - Contentx_Text2',
-                          'Header 0 - Contentx_Text3',
-                          'Header 0 - Contentx_Text4'
-                        ]
-                      },
-                      {
-                        noteContentsID: 'bfc248c6-69ce-4ce1-9981-790fb5a5b4cd',
-                        Header: 'Header 1',
-                        Contents_Text: [
-                          'Header 1 - Contentx_Text0',
-                          'Header 1 - Contentx_Text1',
-                          'Header 1 - Contentx_Text2',
-                          'Header 1 - Contentx_Text3',
-                          'Header 1 - Contentx_Text4',
-                          'Header 1 - Contentx_Text5'
-                        ]
-                      },
-                      {
-                        noteContentsID: '4b789ec4-6ae5-4b86-b0c8-01145cb71449',
-                        Header: 'Header 2',
-                        Contents_Text: [
-                          'Header 2 - Contentx_Text0'
-                        ]
-                      }
-                    ]
-                  }
-                ],
                 Email: {
-                  emailID: 'bd490d1a-e508-4dbb-986e-50c191118fc7',
+                  emailID: 'ef385f2e-58e7-4472-8de0-4cefd009dc5d',
                   Email: 'Email22@gmail.com'
                 },
                 Phone: {
-                  phoneID: 'f81754b1-0e77-44c3-b181-b2af7643a993',
+                  phoneID: 'bee5068d-e7b9-4e87-83df-686d6b310ef8',
                   PhoneNumber: '2000000'
                 },
                 Convo: [
                   {
-                    noteContentsID: '16f711e9-3a3d-4829-bc44-71db3ae6ab2a',
+                    noteContentsID: 'a7d94fb8-3c0a-4edd-806d-3c933e97e51d',
                     Header: 'Header 0',
                     Contents_Text: [
                       'Header 0 - Contentx_Text0',
@@ -2015,25 +1423,42 @@ app.post('/newapp', (req, res) =>{
                     ]
                   },
                   {
-                    noteContentsID: 'bfc248c6-69ce-4ce1-9981-790fb5a5b4cd',
+                    noteContentsID: '15ade458-84a3-4066-bbc8-6273b0f7e40e',
                     Header: 'Header 1',
                     Contents_Text: [
-                      'Header 1 - Contentx_Text0',
-                      'Header 1 - Contentx_Text1',
-                      'Header 1 - Contentx_Text2',
-                      'Header 1 - Contentx_Text3',
-                      'Header 1 - Contentx_Text4',
-                      'Header 1 - Contentx_Text5'
+                      'Header 1 - Contentx_Text0'
                     ]
                   },
                   {
-                    noteContentsID: '4b789ec4-6ae5-4b86-b0c8-01145cb71449',
+                    noteContentsID: '65cb5b36-72ab-46bf-992e-a859e1f3d248',
                     Header: 'Header 2',
                     Contents_Text: [
-                      'Header 2 - Contentx_Text0'
+                      'Header 2 - Contentx_Text0',
+                      'Header 2 - Contentx_Text1'
                     ]
                   }
                 ]
+              },
+              {
+                contactID: 'cb2120ee-f5b1-4d5a-bda2-6bb03453a454',
+                PersonalDetail: {
+                  contactID: 'cb2120ee-f5b1-4d5a-bda2-6bb03453a454',
+                  Firstname: 'Firstname 3',
+                  Lastname: 'Lastname 3',
+                  Title: 'Title 3',
+                  Company: 'Company 3',
+                  IsReadOnly: 'True',
+                  Width_Per_Cell: 86
+                },
+                Email: {
+                  emailID: '0528fceb-39e5-4831-bd7f-3c148cf7c83d',
+                  Email: 'Email33@gmail.com'
+                },
+                Phone: {
+                  phoneID: '1b6830b1-af05-413c-8355-ed0d9230ebfe',
+                  PhoneNumber: '3000000'
+                },
+                Convo: []
               }
             ],
             FollowUps: [
